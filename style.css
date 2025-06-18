@@ -1,0 +1,300 @@
+/* General Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Optional Container - not used directly on body/sections for now, but good for reference */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #004A7F; /* A deep blue */
+    color: #fff;
+    padding: 20px 40px;
+    border-bottom: 3px solid #002D4C;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center; /* Center if nav is also centered or below */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0; /* Add some margin if H1 is above */
+    display: flex;
+    justify-content: center; /* Center navigation items */
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover, nav a.active { /* Assuming an active class might be added later */
+    background-color: #0066A2; /* A lighter blue for hover */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center; /* Center text for most sections for now */
+}
+
+/* Alternating background colors for sections for better separation - optional */
+section:nth-of-type(even) {
+ /* background-color: #f4f4f4; */ /* Light gray for alternate sections if desired */
+}
+section:nth-of-type(odd) {
+ /* background-color: #fff; */
+}
+
+
+/* Hero Section */
+#hero {
+    background-color: #005A9C; /* Slightly different blue from header */
+    color: #fff;
+    padding: 60px 20px;
+}
+
+#hero h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+/* Call-to-Action Button Styling (Shared) */
+.cta-button {
+    display: inline-block;
+    background-color: #FFD700; /* Gold color for CTA */
+    color: #333;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFC700; /* Darker gold */
+    transform: translateY(-2px);
+}
+
+/* Features Section */
+#features {
+    background-color: #f9f9f9; /* Light grey background */
+}
+
+#features h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #004A7F;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container itself if it has a max-width */
+}
+
+.feature {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    flex-basis: calc(33.333% - 40px); /* Adjust basis for 3 columns, considering gap */
+    min-width: 280px; /* Minimum width for smaller screens / wrapping */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left; /* Align text to left within feature boxes */
+}
+
+.feature span { /* Icon placeholder */
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #004A7F;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #005A9C;
+}
+
+/* CTA Section */
+#cta {
+    background-color: #004A7F;
+    color: #fff;
+}
+#cta h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+#cta p {
+    margin-bottom: 25px;
+    font-size: 1.1em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #FFD700; /* Gold links in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design - Media Queries */
+
+/* For tablets and smaller desktops */
+@media (max-width: 992px) {
+    .feature {
+        flex-basis: calc(50% - 40px); /* 2 columns on tablets */
+    }
+}
+
+/* For smaller tablets and mobile landscape */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin-bottom: 10px; /* Space between stacked nav items */
+        width: 100%; /* Make nav items take full width for easier tapping */
+        text-align: center;
+    }
+    nav a {
+        display: block; /* Make the link itself take full width of li */
+    }
+
+    #hero h2 {
+        font-size: 1.8em;
+    }
+
+    #hero p {
+        font-size: 1em;
+    }
+
+    .features-container {
+        flex-direction: column; /* Stack features vertically */
+        gap: 15px;
+    }
+
+    .feature {
+        flex-basis: 100%; /* Full width for stacked features */
+        margin-bottom: 15px; /* Space between stacked features */
+    }
+
+    #features h2, #cta h2 {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
+
+/* For mobile phones (portrait) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Reduce base font size for small screens */
+    }
+
+    header {
+        padding: 15px 20px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        gap: 5px; /* Reduce gap for very small screens */
+    }
+    nav li {
+        margin-bottom: 5px;
+    }
+    nav a {
+        padding: 10px 5px; /* Adjust padding for smaller nav links */
+    }
+
+
+    #hero h2 {
+        font-size: 1.5em;
+    }
+    #hero p {
+        font-size: 0.9em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    #features h2, #cta h2 {
+        font-size: 1.6em;
+    }
+
+    .feature {
+        padding: 20px;
+    }
+    .feature h3 {
+        font-size: 1.3em;
+    }
+    .feature p {
+        font-size: 0.95em;
+    }
+
+    footer {
+        padding: 15px;
+    }
+    footer p {
+        font-size: 0.9em;
+    }
+}
