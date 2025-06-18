@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@400;700&display=swap');
 
 /* General Styles */
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans Sinhala', Arial, Helvetica, sans-serif;
-    line-height: 1.7; /* Increased for better readability with Noto Sans Sinhala */
+    font-family: 'Noto Serif Sinhala', Georgia, Times, serif;
+    line-height: 1.8; /* Adjusted for Noto Serif Sinhala */
     color: #333;
 }
 
@@ -102,6 +102,25 @@ section:nth-of-type(odd) {
     transform: translateY(-2px);
 }
 
+/* Safety Tip Section */
+#safety-tip {
+    background-color: #e7f3fe; /* Light blue background */
+    padding: 40px 20px;
+    /* text-align: center; is inherited from general section styling */
+}
+
+#safety-tip h2 {
+    font-size: 2em; /* Consistent with other section titles */
+    color: #004A7F; /* Consistent color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+#safety-tip p {
+    font-size: 1.1em; /* Readable font size for the tip */
+    max-width: 800px; /* Prevent line from being too wide */
+    margin: 0 auto; /* Center the paragraph if it has max-width */
+}
+
 /* Features Section */
 #features {
     background-color: #f9f9f9; /* Light grey background */
@@ -186,6 +205,41 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Styling for content pages */
+#page-content {
+    max-width: 900px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the content block */
+    padding: 20px;
+    text-align: left; /* Override general section text-align: center if it applies */
+}
+
+#page-content h1 {
+    font-size: 2.2em; /* Main page title */
+    color: #004A7F;
+    margin-bottom: 30px;
+    text-align: center; /* Center the main H1 of the page */
+}
+
+#page-content h2 {
+    font-size: 1.8em; /* Sub-section title (e.g., Bleach) */
+    color: #005A9C;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#page-content h3 {
+    font-size: 1.4em; /* Specific aspect title (e.g., Risks) */
+    color: #0073b7; /* Slightly lighter blue */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#page-content p {
+    font-size: 1em; /* Or adjust if Noto Serif Sinhala looks better slightly larger, e.g., 1.1em */
+    line-height: 1.8; /* Already set globally, but ensure it's good for paragraphs */
+    margin-bottom: 15px;
 }
 
 /* Responsive Design - Media Queries */
