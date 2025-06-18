@@ -1,0 +1,13 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" preserveAspectRatio="none">
+  <defs>
+    <style type="text/css">
+      #holder text { fill:#AAAAAA;font-weight:bold;font-family:Arial,sans-serif;font-size:40pt }
+    </style>
+  </defs>
+  <g>
+    <rect width="800" height="300" fill="#EEEEEE"></rect>
+    <g>
+      <text id="holder" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">ToxikSense Awareness</text>
+    </g>
+  </g>
+</svg>

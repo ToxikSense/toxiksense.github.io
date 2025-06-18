@@ -1,0 +1,13 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="none">
+  <defs>
+    <style type="text/css">
+      #holder text { fill:#AAAAAA;font-weight:bold;font-family:Arial,sans-serif;font-size:30pt }
+    </style>
+  </defs>
+  <g>
+    <rect width="600" height="400" fill="#EEEEEE"></rect>
+    <g>
+      <text id="holder" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Safe Chemical Storage</text>
+    </g>
+  </g>
+</svg>

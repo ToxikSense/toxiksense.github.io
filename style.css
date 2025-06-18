@@ -10,6 +10,23 @@ html, body {
     color: #333;
 }
 
+img { /* General responsive image rule */
+    max-width: 100%;
+    height: auto;
+    display: block; /* Helps with margin auto centering and removes bottom space */
+}
+
+/* Image Utilities */
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-icon {
+    max-width: 150px; /* As used for the safety icon */
+    /* margin-bottom: 20px; /* Or keep margin specific to instance */
+}
+
 /* Optional Container - not used directly on body/sections for now, but good for reference */
 .container {
     max-width: 1200px;

@@ -1,0 +1,94 @@
+## Infographic Prompts for ToxikSense Project
+
+This file contains prompts for generating infographics for the ToxikSense website.
+These prompts are intended for use with AI image generation tools like Gemini.
+
+---
+
+### 1. Homepage (`index.html`)
+
+**Infographic 1.1: Key Features of ToxikSense**
+*   **Prompt Idea:** "Create a visually engaging infographic for a website called 'ToxikSense'. The infographic should highlight its 5 key features with icons and brief Sinhala text snippets (I will provide the Sinhala text to overlay later, so leave space). The features are:
+    1.  විෂ ද්‍රව්‍ය හඳුනා ගැනීම (Toxic Substance Identification) - Icon: Magnifying glass or flask.
+    2.  අවදානම් අවම කිරීම (Risk Minimization) - Icon: Shield or helping hands.
+    3.  ප්‍රථමාධාර (First Aid) - Icon: Medical cross or first aid kit.
+    4.  සෞඛ්‍ය බලපෑම් (Health Impacts) - Icon: Heartbeat line or lungs.
+    5.  ක්ෂණික තොරතුරු (Quick Information) - Icon: Info symbol or lightbulb.
+    The style should be clean, modern, and trustworthy, using a color palette that includes blues and greens. The overall tone should be informative and slightly cautionary but empowering."
+*   **Desired Visual Elements:** Clear sections for each feature, space for Sinhala text next to/below icons, overall balanced layout.
+*   **Target Audience:** General public in Sri Lanka.
+
+**Infographic 1.2: Safety Tip - Household Cleaners**
+*   **Prompt Idea:** "Generate an infographic illustrating safety tips for using household cleaners. The title in Sinhala (leave space for me to add: 'ගෘහස්ථ පිරිසිදුකාරක ආරක්ෂිතව භාවිතා කරමු'). Include these 3 key messages with simple icons:
+    1.  Read labels (Icon: Eye looking at a label).
+    2.  Ensure good ventilation (Icon: Open window with fresh air).
+    3.  Keep away from children (Icon: Child symbol with a 'do not touch' or 'keep away' indicator).
+    Style should be simple, clear, and easy to understand, suitable for a general audience. Use a friendly but serious tone. Colors should be bright but not alarming."
+*   **Desired Visual Elements:** Three distinct visual points, clear iconography, space for Sinhala text.
+*   **Target Audience:** General public.
+
+---
+
+### 2. Toxic Substances Page (`toxic-substances.html`)
+
+**Infographic 2.1: Bleach Safety**
+*   **Prompt Idea:** "Create a safety infographic about household bleach. Title in Sinhala (leave space: 'බිලීචින් භාවිතය - ආරක්ෂණ ක්‍රම'). The infographic must convey these key points with icons and space for Sinhala text:
+    1.  Risks: Skin/eye irritation (Icon: Exclamation mark near eye/hand), Respiratory issues from fumes (Icon: Lungs with a warning), Danger of mixing with other chemicals, especially ammonia (Icon: Two bottles mixing with a prohibition symbol).
+    2.  Precautions: Wear gloves & eye protection (Icon: Gloves and goggles), Use in well-ventilated area (Icon: Open window), Store safely away from children (Icon: Lock symbol or child out of reach).
+    The style should be very clear, using standard warning colors (like red, yellow for caution) appropriately, but also reassuring elements for precautions. Focus on clarity and immediate understanding."
+*   **Desired Visual Elements:** Clear distinction between risks and precautions, strong visual icons, space for Sinhala text for each point.
+*   **Target Audience:** General household users.
+
+---
+
+### 3. Risk Minimization Page (`risk-minimization.html`)
+
+**Infographic 3.1: Safe Chemical Storage at Home**
+*   **Prompt Idea:** "Design an infographic titled (leave space for Sinhala text: 'නිවසේ රසායනික ද්‍රව්‍ය සුරක්ෂිතව ගබඩා කිරීම'). It should illustrate these key practices for safe chemical storage in a home environment:
+    1.  Store in original containers (Icon: Original labeled bottle).
+    2.  Keep containers tightly closed (Icon: Bottle with a tightly sealed cap).
+    3.  Store out of reach of children and pets (Icon: Child/pet symbol with a 'no access' sign, perhaps on a high shelf or locked cabinet).
+    4.  Store away from food items (Icon: Food items separated from chemical bottles with a clear visual barrier).
+    5.  Avoid storing incompatible chemicals together (Icon: Two different chemical symbols with a separation line/warning).
+    The style should be clean, organized, and easy to follow. Use calming and reassuring colors, perhaps greens and blues, with appropriate cautionary highlights."
+*   **Desired Visual Elements:** Clear visual representation of each storage practice, use of simple household scenarios.
+*   **Target Audience:** Homeowners, parents.
+
+**Infographic 3.2: Understanding Safety Labels on Products**
+*   **Prompt Idea:** "Create an infographic explaining how to understand common safety labels and symbols found on chemical products. Title (leave space for Sinhala: 'ආරක්ෂිත ලේබල තේරුම් ගනිමු'). Include explanations for 3-4 common hazard symbols (pictograms like 'Flammable', 'Corrosive', 'Toxic', 'Irritant' - use standard GHS pictograms if possible). For each symbol:
+    1.  Show the symbol clearly.
+    2.  Provide a brief explanation of what it means (leave space for Sinhala text).
+    3.  Suggest a key precaution (leave space for Sinhala text).
+    Style should be highly informative and educational, using clear graphics for the symbols. The layout should allow easy comparison and understanding of the different symbols."
+*   **Desired Visual Elements:** Accurate representation of hazard pictograms, clear association between symbol, meaning, and precaution.
+*   **Target Audience:** General consumers.
+
+---
+
+### 4. First Aid Page (`first-aid.html`)
+
+**Infographic 4.1: First Aid for Chemical Skin Contact**
+*   **Prompt Idea:** "Generate a first aid infographic for chemical skin contact. Title (leave space for Sinhala: 'රසායනික ද්‍රව්‍ය සමේ ස්පර්ශ වුවහොත් ප්‍රථමාධාර'). Illustrate these steps clearly:
+    1.  Remove contaminated clothing immediately (Icon: Person taking off a shirt carefully).
+    2.  Rinse skin with copious amounts of running water for at least 15-20 minutes (Icon: Water tap rinsing an arm/hand).
+    3.  Wash with mild soap and water if available after initial rinsing (Icon: Soap bar and water).
+    4.  Seek medical attention if irritation persists or worsens (Icon: Medical cross or person talking to a doctor).
+    The style should be urgent but calm and clear. Use visuals that are easy to understand in an emergency. Perhaps a step-by-step numbered format."
+*   **Desired Visual Elements:** Sequential steps, clear actions, use of water/washing visuals.
+*   **Target Audience:** General public, for emergency guidance.
+
+---
+
+### 5. Health Impacts Page (`health-impacts.html`)
+
+**Infographic 5.1: How Chemical Fumes Can Affect Respiratory Health**
+*   **Prompt Idea:** "Create an infographic explaining how inhaling chemical fumes can affect respiratory health. Title (leave space for Sinhala: 'රසායනික දුම් ශ්වසන සෞඛ්‍යයට බලපාන ආකාරය'). Key points to visualize:
+    1.  Fumes entering the respiratory system (Icon: Stylized lungs with arrows showing fume entry).
+    2.  Potential short-term effects: coughing, wheezing, shortness of breath (Icons for each).
+    3.  Potential long-term effects: asthma, chronic bronchitis (More abstract icons representing lung damage or chronic conditions).
+    4.  Prevention tip: Ensure good ventilation when using chemicals (Icon: Open window with fresh air flowing).
+    Style should be somewhat clinical but accessible. Use clear diagrams of the respiratory system if possible. The tone is informative and cautionary."
+*   **Desired Visual Elements:** Visual pathway of fumes, clear depiction of symptoms, emphasis on prevention.
+*   **Target Audience:** General public, workers exposed to fumes.
+
+```
